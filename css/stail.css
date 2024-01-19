@@ -34,7 +34,7 @@ a {
   margin: 0 auto;
 }
 
-.div-cotainer {
+.card-container {
   display: flex;
   width: 484px;
   padding: 24px;
@@ -48,11 +48,11 @@ a {
   box-shadow: 8px 8px 0px 0px #000;
 }
 
-.img1 {
+.card__img1 {
   width: 430px;
 }
 
-.p1 {
+.card__p1 {
   color: var(--Black, #111);
 
   /* Body S (Regular) */
@@ -63,7 +63,7 @@ a {
   line-height: 150%; /* 21px */
 }
 
-h1 {
+.card__h1 {
   align-self: stretch;
   color: var(--Black, #111);
 
@@ -76,7 +76,7 @@ h1 {
   margin-top: -18px;
 }
 
-.p2 {
+.card__p2 {
   color: var(--Grey, #7f7f7f);
 
   /* Body M */
@@ -89,18 +89,18 @@ h1 {
   margin-top: -18px;
 }
 
-.div34 {
+.card__tital {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.img2 {
+.card__img2 {
   width: 47px;
   height: 47px;
 }
 
-.p3 {
+.card__p3 {
   color: var(--Black, #111);
 
   /* Body S (Bold) */
